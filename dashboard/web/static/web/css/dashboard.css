@@ -1,0 +1,11 @@
+#main-nav .navbar-brand, 
+#main-nav .nav-link {
+    color: #ffffff !important;
+}
+
+
+.bg-eating { background-color: #d8320d !important; }
+
+.bg-study { background-color: #249bc3 !important }
+
+.bg-rgb { background: linear-gradient(45deg, #ce3434, #aeac26, #52b929, #2318a2, #5b0e7c) !important;}
