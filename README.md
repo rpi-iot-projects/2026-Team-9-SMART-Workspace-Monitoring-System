@@ -99,10 +99,14 @@ Ex: 127.0.0.1:8000
 4. Before running the mqtt listeners, please change the address that the listeners will connect to in the mqtt.py file. This should be the ip address of the raspberry pi, found by running ``hostname -I``.
 
 5. Then run the two mqtt listener scripts by creating two new terminal instances.
-Follow steps 2 and 3.
+
+6. Follow steps 2 and 3.
+
 Then run the listener with your own topic
+
 Ex: ``Python3 mqtt.py -t huanga9/weight``
-Repeat steps 12 -16 for the second listener
+
+7. Repeat steps 12 -16 for the second listener
 
 For the ESP32:
 1. Before running anything, go into the wifi_mqtt.cpp / .ino file, and change the address of the mqtt broker. This should be the same as the raspberry pi above.
