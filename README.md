@@ -92,7 +92,8 @@ Then run the project with
 Python3 manage.py runserver 0.0.0.0:8000
 ```
 
-The terminal will print the address of the server, put that in the browser with :8000 for the port of the program:
+The terminal will print the address of the server, put that in the browser with :8000 for the port of the program
+
 Ex: 127.0.0.1:8000
 
 4. Before running the mqtt listeners, please change the address that the listeners will connect to in the mqtt.py file. This should be the ip address of the raspberry pi, found by running ``hostname -I``.
